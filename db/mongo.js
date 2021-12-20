@@ -1,9 +1,9 @@
 const monk = require('monk')
 
 // Connection URL
-var url = "MONGODB=mongodb+srv://nathanael:claramylove@cluster0.eqj2w.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+var url = "";
 try {
-    if (url == 'MONGODB=mongodb+srv://nathanael:claramylove@cluster0.eqj2w.mongodb.net/myFirstDatabase?retryWrites=true&w=majority') throw console.log('Cek konfigurasi database, var url belum diisi');
+    if (url == '') throw console.log('Cek konfigurasi database, var url belum diisi');
 } catch (e) {
     return;
 }
